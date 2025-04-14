@@ -521,7 +521,8 @@
   #es-rc #es-rc-content .es-cross__single {
     background: #e5dcd3;
     min-height: auto;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
   #es-rc #es-rc-content .es-cross__single-subtitle-disclaimer {
     display: none;
@@ -657,7 +658,7 @@
     background: url('https://www.datocms-assets.com/114232/1743696379-steps-bg-desktop.png')
       no-repeat center center;
     background-size: cover;
-    min-height: 640px;
+    min-height: 660px;
     width: 100%;
   }
   #es-rc #es-rc-content .es-change__inner {
@@ -690,7 +691,7 @@
     margin: 0 auto;
   }
   #es-rc #es-rc-content .es-features {
-    min-height: 450px;
+    min-height: 550px;
     max-width: 1920px;
     margin: 0 auto;
   }
@@ -728,6 +729,7 @@
 @media (min-width: 1400px) {
   #es-rc #es-rc-content .es-title {
     font-size: 37px;
+    padding-top: 35px;
   }
   #es-rc #es-rc-content .es-features__inner {
     max-width: 66%;
@@ -737,6 +739,15 @@
     -webkit-box-pack: center;
     justify-content: center;
     padding-left: unset;
+  }
+}
+@media (min-width: 1700px) {
+  #es-rc #es-rc-content .es-features {
+    min-height: 650px;
+  }
+
+  #es-rc #es-rc-content .es-cross__single-image--4 {
+    padding-top: 20px;
   }
 }
 @-webkit-keyframes pulse {
