@@ -59,9 +59,7 @@
 #es-rc #es-rc-content .es-kv {
   background-color: #5fa6c9;
 }
-#es-rc #es-rc-content .es-kv__image--desktop {
-  display: none;
-}
+
 #es-rc #es-rc-content .es-features {
   background: url('https://www.datocms-assets.com/114232/1743696378-features-bg-mobile.png')
     no-repeat center center;
@@ -456,12 +454,6 @@
 @media (min-width: 768px) {
   #es-rc #es-rc-content .es-title {
     font-size: 26px;
-  }
-  #es-rc #es-rc-content .es-kv__image--mobile {
-    display: none;
-  }
-  #es-rc #es-rc-content .es-kv__image--desktop {
-    display: block;
   }
   #es-rc #es-rc-content .es-features {
     background: #eeeae5
